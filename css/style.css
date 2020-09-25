@@ -195,6 +195,13 @@ body {
 .footer__link i {
   margin-bottom: 3rem;
 }
+.footer p a {
+    text-decoration: none;
+    color: var(--features-color);
+}
+.footer p a:hover {
+    color: var(--first-color);
+}
 
 /* Media Query */
 @media (max-width: 1028px) {
